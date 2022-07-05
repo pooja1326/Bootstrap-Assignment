@@ -1,0 +1,141 @@
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+.rating {
+  color: #FFD014;
+}
+
+.heart {
+  color: red;
+}
+
+.trash {
+  color: red;
+}
+
+.file {
+  color: green;
+}
+
+.table1 {
+  line-height: 40px;
+}
+
+.home {
+  color: white;
+}
+
+.barbutton {
+  margin-left: 70px;
+}
+
+.filter {
+  opacity: 0.5;
+}
+
+.second {
+  margin-top: -44px;
+  height: 145px;
+}
+
+.third {
+  margin-top: 75px;
+}
+
+.vl {
+  border-left: 5px solid rgb(210, 210, 210);
+  height: 80px;
+}
+
+/*# sourceMappingURL=main.css.map */
+@media (min-width: 576px) and (max-width: 767px) {
+  #sidebar {
+    display: none;
+  }
+
+  .second {
+    margin-top: 10px;
+  }
+
+  .cardmargin {
+    margin-bottom: 60px;
+  }
+
+  .cardmargin1 {
+    margin-bottom: 30px;
+  }
+
+  .card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .card-columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navicon {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .dashboard {
+    margin-top: -42px;
+  }
+
+  .imagemargin {
+    margin-right: 1px;
+  }
+
+  .table1 {
+    line-height: 19px;
+    overflow-x: auto;
+  }
+
+  .tablemargin {
+    margin-top: 19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .table1 {
+    line-height: 20px;
+    overflow-x: auto;
+  }
+
+  .order1 {
+    width: 50%;
+  }
+
+  .display {
+    display: contents;
+  }
+
+  .cardmargin1 {
+    margin-bottom: 25px;
+  }
+
+  .cardmargin {
+    margin-bottom: 44px;
+  }
+
+  .tablemargin {
+    margin-top: -49px;
+  }
+}
+@media (min-width: 1200px) {
+  .cardmargin1 {
+    margin-bottom: 25px;
+  }
+
+  .table1 {
+    line-height: 44px;
+    overflow-x: auto;
+  }
+}/*# sourceMappingURL=main.css.map */

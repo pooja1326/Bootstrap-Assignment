@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./sass/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="container-fluid  bg-primary text-white">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+          <!-- Brand/logo -->
+          <a class="navbar-brand text-dark font-weight-bold" href="#">
+            <img src="asset/download.png" style="width:90px; "></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <div>
+                <img class="barbutton" src="asset/barthree.png" style="width:29px;"></a>
+              </div>
+            </li>
+            <li> <i class="bi bi-search ml-2  mt-2"></i> </li>
+          </ul>
+
+        </nav>
+      </div>
+      <div class="navicon mr-1 mt-3">
+        <p class=""> <i class="fas fa-bell"> </i>
+          <span class="ml-3 mr-3"> <i class="fas fa-user ml-4"></i> </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="main">
+    <div class="row">
+
+      <div class="col-xl-2 col-md-3 col-2 col-sidebar-offcanvas text-dark" id="sidebar">
+        <ul class="nav flex-column sticky-top pl-0 pt-5 mt-0">
+          <img src="asset/image.png" class="rounded-circle mx-auto " alt="Cinque Terre" width="45" height="45">
+          <div class="dropdown">
+            <a type="button" class="btn text-primary  ml-5 dropdown-toggle" data-toggle="dropdown">
+              UX Designer
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="text-primary">
+            <h7> <small>Navigation</small></h7>
+          </div>
+          <button class="nav-link bg-primary  text-light mt-3" href="#submenu1" data-toggle="collapse"
+            data-target="#submenu1">
+            <span><i class="fas fa-home home "></i></span>
+            <h7 class="ml-3">
+              <samll>Dashboard </samll>
+            </h7> <i class="fas fa-caret-right ml-4"></i>
+          </button>
+          <ul class="list-unstyled flex-column pl-3 collapse dropdown-dropright" id="submenu1" aria-expanded="false">
+            <li class="nav-item text-muted"><a class="nav-link" href=""> <i
+                  class="fas fa-caret-right mr-3"></i>Default</a></li>
+            <li class="nav-item text-muted"><a class="nav-link" href=""> <i
+                  class="fas fa-caret-right mr-3"></i>sales</a></li>
+            <li class="nav-item text-muted"><a class="nav-link" href=""><i class="fas fa-caret-right mr-3"></i>CRM</a>
+            </li>
+            <li class="nav-item text-muted"><a class="nav-link" href=""> <i
+                  class="fas fa-caret-right mr-3"></i>Analytics</a></li>
+            <li class="nav-item text-muted"><a class="nav-link" href=""> <i
+                  class="fas fa-caret-right mr-3"></i>Project</a></li>
+          </ul>
+          </li>
+
+          <li class="nav-item "><a class="nav-link text-muted" href="#"> <i class="fab fa-wpforms mr-3"></i> Page Layout
+              <i class="fas fa-caret-right ml-4 "></i></a> </li>
+          <li class="nav-item"><a class="nav-link text-muted" href="#"> <i class="fas fa-layer-group mr-3"></i> Widget
+              <i class="ml-5 fas fa-caret-right "></i></a> </li>
+
+          <li class="nav-item"><a class="nav-link text-muted" href="#"> <span><i
+                  class="far fa-user mr-2"></i></i></span> <span class="ml-2">User <i
+                  class="fas fa-caret-right ml-5"></i> </span></a></li>
+
+
+        </ul>
+      </div>
+
+      <div class="col-xl-10 col-md-9 col-sm-12 col-10 px-0 bg-primary">
+        <h5 class="text-light ml-3 mt-3"><small> Dashboard sale</small></h5>
+        <div><i class="fas fa-home home ml-3"></i> <span class="ml-2 text-light">/</span> <span
+            class="ml-1 text-light">Dashboard</span></div>
+        <div class="col bg-light third">
+          <div class="row">
+            <div class="col-xl-3 col-md-6 col-sm-12 col-3 cardmargin">
+              <div class="card-deck text-dark">
+                <div class="card second dashboard">
+                  <div class="card-body ">
+                    <h4 class="card-text ">20500</h4>
+                    <p>Site-Analysis</p>
+                    <div class="progress">
+                      <div class="progress progress-bar-striped progress-bar-animated  bg-primary" style="width:70%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 col-3 cardmargin">
+              <div class="card-deck text-dark">
+                <div class="card second dashboard">
+                  <div class="card-body">
+                    <h4 class="card-text">20500</h4>
+                    <p>Total Sales</p>
+                    <div class="progress">
+                      <div class="progress  progress-bar-striped progress-bar-animated bg-success" style="width:70%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 col-3 cardmargin ">
+              <div class="card-deck text-dark">
+                <div class="card second dashboard">
+                  <div class="card-body ">
+                    <h4 class="card-text">20500</h4>
+                    <p>Total Sales</p>
+                    <div class="progress">
+                      <div class="progress progress-bar-striped progress-bar-animated  bg-warning" style="width:70%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 col-3">
+              <div class="card second dashboard">
+                <div class="card-body ">
+                  <h4 class="card-text">20500</h4>
+                  <p>Total Usage</p>
+                  <div class="progress">
+                    <div class="progress progress-bar-striped progress-bar-animated  bg-danger" style="width:70%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+            <div class=" col-xl-4 col-md-6  col-sm-12 col-4 tablemargin">
+              <div class="card ">
+                <div class="card-header bg-success text-white">
+                  <div class="float-right">Friday</div>
+                  <h4> $654</h4><br>
+                  <h5>+1.65(2.56%)</h5>
+                  <br>
+                  <br>
+                  <div class="progress">
+                    <div class="progress-bar  bg-light" style="width:70%">
+
+                    </div>
+
+
+
+
+                  </div>
+                  <br>
+
+                </div>
+
+
+              </div>
+              <div class="card-footer">
+                <h4>$2654.00</h4>
+                <p class="text-muted">Sales in Nov.</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th class="text-muted ">From Market</th>
+                      <th class="text-muted">Referral</th>
+                      <th class="text-muted">Affiliate</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td> $1860.0</td>
+                      <td>$500.00</td>
+                      <td>$294.00</td>
+                    </tr>
+
+
+                </table>
+              </div>
+            </div>
+
+            <div class="col-xl-8 col-md-6 col-sm-12 col-8 tablemargin">
+
+              <div class="card">
+                <div class="card-header">
+                  <h3>Latest Order </h3>
+                </div>
+                <div class="card-content table1">
+                  <table class="table table-borderless text-dark">
+                    <thead>
+                      <tr class="table-dark">
+                        <th>CUSTOMER</th>
+                        <th>ORDER ID</th>
+                        <th>PHOTO</th>
+                        <th>PRODUCT</th>
+                        <th>QTY</th>
+                        <th>DATE</th>
+                        <th>STATUS</th>
+                        <th>ACTION</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+                        <td>John Doe</td>
+                        <td>#425367</td>
+                        <td><i class="fas fa-mobile-alt ml-3"></i></td>
+                        <td>Iphone XR</td>
+                        <td>18</td>
+                        <td>17-08-2018</td>
+                        <td><span class="badge badge-warning mt-2">Pending</span>
+                        <td><i class="fas fa-file-signature file"></i> <span><i
+                              class="far fa-trash-alt ml-4 trash"></i></span></td>
+                      </tr>
+                      <tr>
+                        <td>Jenny William</td>
+                        <td>#645767</td>
+                        <td><i class="fas fa-mobile-alt ml-3"></i></td>
+                        <td>Iphone 11</td>
+                        <td>16</td>
+                        <td>13-10-2018</td>
+                        <td><span class="badge badge-primary">Paid</span></td>
+                        </td>
+                        <td><i class="fas fa-file-signature file "></i> <span><i
+                              class="far fa-trash-alt ml-4 trash"></i></span></td>
+                      </tr>
+
+                      <tr>
+                        <td>Lori Moore</td>
+                        <td>#454898</td>
+                        <td><i class="fas fa-mobile-alt ml-3"></i></td>
+                        <td>Iphone 12Pro</td>
+                        <td>20</td>
+                        <td>17-10-2020</td>
+                        <td><span class="badge badge-success">Success</span></td>
+                        <td><i class="fas fa-file-signature file"></i><span><i
+                              class="far fa-trash-alt ml-4 trash"></i></span></td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <br>
+          <div class="row">
+            <div class=" col-xl-4 col-md-12 col-sm-12 col-4 cardmargin1">
+              <div class="card-deck">
+                <div class="card bg-primary">
+                  <div class="card-body text-light">
+                    <span class="float-right text-light filter"><i class="fa fa-filter fa-5x mt-3 mr-2"></i></span>
+                    <p class="card-text ">Revenue</p>
+                    <h4>$42,562</h4> <br>
+                    <p>$5,032 <i class="fas fa-long-arrow-alt-up"></i></p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class=" col-xl-4 col-md-6 col-sm-12 col-4 cardmargin1">
+              <div class="card-deck">
+                <div class="card bg-warning  ">
+                  <div class="card-body text-light">
+                    <span class="float-right text-light filter"><i
+                        class="fas fa-user-friends fa-5x mt-3 mr-2"></i></span>
+
+                    <p class="card-text">Orders Received</p>
+                    <h4>486</h4> <br>
+                    <p>$50,32 <i class="fas fa-long-arrow-alt-up"></i> $1,055 <i class="fas fa-long-arrow-alt-down"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12 col-4 cardmargin1">
+              <div class="card-deck">
+                <div class="card bg-success">
+                  <div class="card-body text-light filter">
+                    <span class="float-right"><i class="bi bi-broadcast fa-5x mt-3 mr-2"></i></span>
+                    <p class="card-text">Total Sales</p>
+                    <h4>1546</h4> <br>
+                    <p>$40,32 <i class="fas fa-long-arrow-alt-up"></i> $5,055 <i class="fas fa-long-arrow-alt-down"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-xl-7 col-sm-12 col-8">
+              <div class="card ">
+                <div class="card-header bg-dark">
+                  <div class=" text-light ">
+                    <h3>Customer reviews</h3>
+                  </div>
+
+                </div>
+                <div class="card-body">
+                  <div class="row ">
+                    <div class="col-1 mt-3 imagemargin">
+                      <img src="asset/image.png" class="rounded-circle" alt="Cinque Terre" width="50" height="40">
+                    </div>
+                    <div class="col-11 mt-3 ">
+                      <span class="float-right text-muted">a week ago</span>
+                      <p>Caliana Deo</p>
+                      <div>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="mt-3">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error cum rem suscipit
+                          consequuntur eos eveniet tempora asperiores .</p>
+                        <i class="far fa-thumbs-up "> </i> <span class="ml-3">Helpful ?</span> <span><i
+                            class=" ml-3 fas fa-heart heart"></i></span> <span>
+                          <i class=" ml-3 far fa-edit"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col-1 mt-3 imagemargin">
+                      <img src="asset/image.png" class="rounded-circle" alt="Cinque Terre" width="50" height="40">
+                    </div>
+                    <div class="col-11 mt-3 ">
+                      <span class="float-right text-muted">a week ago</span>
+                      <p>Aliana D'croze</p>
+
+                      <div>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                      <div class="mt-3">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla error cum rem suscipit
+                          consequuntur eos eveniet tempora asperiores .</p>
+                        <i class="far fa-thumbs-up "> </i> <span class="ml-3">Helpful ?</span> <span><i
+                            class=" ml-3 fas fa-heart heart"></i></span> <span>
+                          <i class=" ml-3 far fa-edit"></i>
+                        </span>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col"></div>
+                    <div class="col-11">
+
+
+                      <div class="vl">
+                        <p class="ml-4">Aliana D'croze</p>
+                        <p class="ml-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <span class="float-right text-primary">View All Customer Reviews</span>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+                <br>
+
+
+              </div>
+            </div>
+
+            <div class="col-xl-5 col-sm-12 col-4 tablemargin">
+              <div class="card">
+                <div class="card-body">
+                  <div class="ml-5 mt-3">
+                    <h1 class="ml-4">$45,765</h1>
+                    <p class="ml-5">Monthly Profit</p>
+                  </div>
+
+                  <div class="progress">
+                    <div class="progress progress-bar-striped progress-bar-animated  bg-primary" style="width:60%">
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+
+                  <div class="row ">
+                    <div class="col-7">
+                      <h3 class="ml-3">$6345</h3>
+                      <h6 class="text-muted ml-3">Today</h6>
+                    </div>
+                    <div class="col-5">
+                      <h3>$4567</h3>
+                      <h6 class="text-muted">Yesterday</h6>
+                    </div>
+
+                  </div>
+                  <br>
+                </div>
+              </div><br>
+              <div class="card">
+                <div class="card-body ">
+                  <div class="ml-5 mt-3">
+                    <h1 class="ml-5">6,765</h1>
+                    <p class="ml-5">Monthly Profit</p>
+                  </div>
+
+                  <div class="progress">
+                    <div class="progress progress-bar-striped progress-bar-animated  bg-primary" style="width:60%">
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+
+                  <div class="row ">
+                    <div class="col-7">
+                      <h3 class="ml-3">3445</h3>
+                      <h6 class="text-muted ml-3">Today</h6>
+                    </div>
+                    <div class="col-5">
+                      <h3>5667</h3>
+                      <h6 class="text-muted">Yesterday</h6>
+                    </div>
+
+                  </div>
+                  <br>
+                </div>
+              </div><br>
+
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+  </div>
+
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  </div>
+</body>
+
+</html>
