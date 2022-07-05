@@ -24,14 +24,14 @@
         <nav class="navbar navbar-expand-sm navbar-dark">
           <!-- Brand/logo -->
           <a class="navbar-brand text-dark font-weight-bold" href="#">
-            <img src="asset/download.png" style="width:90px; "></a>
+            <img src="asset/download.png " class="newputlogo ml-4"></a>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <div>
-                <img class="barbutton" src="asset/barthree.png" style="width:29px;"></a>
-              </div>
+
+              <img class="barbutton" src="asset/barthree.png"></a>
+
             </li>
-            <li> <i class="bi bi-search ml-2  mt-2"></i> </li>
+            <li> <i class="bi bi-search ml-2 mt-2"></i> </li>
           </ul>
 
         </nav>
@@ -44,11 +44,14 @@
     </div>
   </div>
   <div class="container-fluid" id="main">
+
+
+    <!-- Sidebar -->
     <div class="row">
 
-      <div class="col-xl-2 col-md-3 col-2 col-sidebar-offcanvas text-dark" id="sidebar">
+      <div class="col-xl-2 col-md-3 d-sm-none d-md-block col-2 col-sidebar-offcanvas text-dark" id="sidebar">
         <ul class="nav flex-column sticky-top pl-0 pt-5 mt-0">
-          <img src="asset/image.png" class="rounded-circle mx-auto " alt="Cinque Terre" width="45" height="45">
+          <img src="asset/image.png" class="rounded-circle mx-auto imagewidth" alt="Cinque Terre">
           <div class="dropdown">
             <a type="button" class="btn text-primary  ml-5 dropdown-toggle" data-toggle="dropdown">
               UX Designer
@@ -62,13 +65,13 @@
           <div class="text-primary">
             <h7> <small>Navigation</small></h7>
           </div>
-          <button class="nav-link bg-primary  text-light mt-3" href="#submenu1" data-toggle="collapse"
+          <a class="nav-link bg-primary  text-light mt-3" href="#submenu1" data-toggle="collapse"
             data-target="#submenu1">
             <span><i class="fas fa-home home "></i></span>
             <h7 class="ml-3">
               <samll>Dashboard </samll>
             </h7> <i class="fas fa-caret-right ml-4"></i>
-          </button>
+          </a>
           <ul class="list-unstyled flex-column pl-3 collapse dropdown-dropright" id="submenu1" aria-expanded="false">
             <li class="nav-item text-muted"><a class="nav-link" href=""> <i
                   class="fas fa-caret-right mr-3"></i>Default</a></li>
@@ -101,6 +104,8 @@
         <div><i class="fas fa-home home ml-3"></i> <span class="ml-2 text-light">/</span> <span
             class="ml-1 text-light">Dashboard</span></div>
         <div class="col bg-light third">
+
+          <!-- Cards-start-->
           <div class="row">
             <div class="col-xl-3 col-md-6 col-sm-12 col-3 cardmargin">
               <div class="card-deck text-dark">
@@ -109,7 +114,7 @@
                     <h4 class="card-text ">20500</h4>
                     <p>Site-Analysis</p>
                     <div class="progress">
-                      <div class="progress progress-bar-striped progress-bar-animated  bg-primary" style="width:70%">
+                      <div class="progress progress-bar-striped progress-bar-animated  bg-primary progresswidth1">
                       </div>
                     </div>
                   </div>
@@ -123,7 +128,7 @@
                     <h4 class="card-text">20500</h4>
                     <p>Total Sales</p>
                     <div class="progress">
-                      <div class="progress  progress-bar-striped progress-bar-animated bg-success" style="width:70%">
+                      <div class="progress  progress-bar-striped progress-bar-animated bg-success progresswidth1">
                       </div>
                     </div>
                   </div>
@@ -137,7 +142,7 @@
                     <h4 class="card-text">20500</h4>
                     <p>Total Sales</p>
                     <div class="progress">
-                      <div class="progress progress-bar-striped progress-bar-animated  bg-warning" style="width:70%">
+                      <div class="progress progress-bar-striped progress-bar-animated  bg-warning progresswidth1">
                       </div>
                     </div>
                   </div>
@@ -150,13 +155,13 @@
                   <h4 class="card-text">20500</h4>
                   <p>Total Usage</p>
                   <div class="progress">
-                    <div class="progress progress-bar-striped progress-bar-animated  bg-danger" style="width:70%"></div>
+                    <div class="progress progress-bar-striped progress-bar-animated  bg-danger progresswidth1 "></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
+          <!-- Cards-end -->
           <br>
 
           <div class="row">
@@ -169,19 +174,11 @@
                   <br>
                   <br>
                   <div class="progress">
-                    <div class="progress-bar  bg-light" style="width:70%">
-
+                    <div class="progress-bar  bg-light progresswidth1">
                     </div>
-
-
-
-
                   </div>
                   <br>
-
                 </div>
-
-
               </div>
               <div class="card-footer">
                 <h4>$2654.00</h4>
@@ -205,7 +202,7 @@
                 </table>
               </div>
             </div>
-
+            <!--  Sales-Table -->
             <div class="col-xl-8 col-md-6 col-sm-12 col-8 tablemargin">
 
               <div class="card">
@@ -270,11 +267,12 @@
                 </div>
               </div>
             </div>
-
+            <!-- Table-end -->
 
 
           </div>
           <br>
+          <!-- Cards  -->
           <div class="row">
             <div class=" col-xl-4 col-md-12 col-sm-12 col-4 cardmargin1">
               <div class="card-deck">
@@ -320,7 +318,7 @@
             </div>
           </div>
 
-
+          <!-- customer reviews Cards  -->
 
           <div class="row">
             <div class="col-xl-7 col-sm-12 col-8">
@@ -334,7 +332,7 @@
                 <div class="card-body">
                   <div class="row ">
                     <div class="col-1 mt-3 imagemargin">
-                      <img src="asset/image.png" class="rounded-circle" alt="Cinque Terre" width="50" height="40">
+                      <img src="asset/image.png" class="rounded-circle imagewidthcard" alt="Cinque Terre">
                     </div>
                     <div class="col-11 mt-3 ">
                       <span class="float-right text-muted">a week ago</span>
@@ -358,7 +356,7 @@
                   </div>
                   <div class="row mt-5">
                     <div class="col-1 mt-3 imagemargin">
-                      <img src="asset/image.png" class="rounded-circle" alt="Cinque Terre" width="50" height="40">
+                      <img src="asset/image.png" class="rounded-circle imagewidthcard" alt="Cinque Terre">
                     </div>
                     <div class="col-11 mt-3 ">
                       <span class="float-right text-muted">a week ago</span>
@@ -379,33 +377,23 @@
                           <i class=" ml-3 far fa-edit"></i>
                         </span>
                       </div>
-
                     </div>
-
                   </div>
                   <div class="row mt-4">
                     <div class="col"></div>
                     <div class="col-11">
-
-
                       <div class="vl">
                         <p class="ml-4">Aliana D'croze</p>
                         <p class="ml-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit..</p>
                         <span class="float-right text-primary">View All Customer Reviews</span>
                       </div>
-
-
                     </div>
-
                   </div>
-
-
                 </div>
                 <br>
-
-
               </div>
             </div>
+            <!-- Side-cards-2 -->
 
             <div class="col-xl-5 col-sm-12 col-4 tablemargin">
               <div class="card">
@@ -416,7 +404,7 @@
                   </div>
 
                   <div class="progress">
-                    <div class="progress progress-bar-striped progress-bar-animated  bg-primary" style="width:60%">
+                    <div class="progress progress-bar-striped progress-bar-animated  bg-primary progresswidth">
                     </div>
                   </div>
                   <br>
@@ -444,12 +432,11 @@
                   </div>
 
                   <div class="progress">
-                    <div class="progress progress-bar-striped progress-bar-animated  bg-primary" style="width:60%">
+                    <div class="progress progress-bar-striped progress-bar-animated  bg-primary progresswidth">
                     </div>
                   </div>
                   <br>
                   <br>
-
                   <div class="row ">
                     <div class="col-7">
                       <h3 class="ml-3">3445</h3>
@@ -459,43 +446,21 @@
                       <h3>5667</h3>
                       <h6 class="text-muted">Yesterday</h6>
                     </div>
-
                   </div>
                   <br>
                 </div>
               </div><br>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
-
-
-
-  </div>
-
-
-  </div>
-
   </div>
   </div>
   </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
+  </div>
+  </div>
   </div>
   </div>
 </body>

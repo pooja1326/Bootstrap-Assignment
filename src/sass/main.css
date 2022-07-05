@@ -1,5 +1,4 @@
 /*# sourceMappingURL=main.css.map */
-/*# sourceMappingURL=main.css.map */
 .rating {
   color: #FFD014;
 }
@@ -46,12 +45,28 @@
   height: 80px;
 }
 
+.progresswidth {
+  width: 60%;
+}
+
+.progresswidth1 {
+  width: 70%;
+}
+
+.imagewidth {
+  width: 25%;
+}
+
+.imagewidthcard {
+  width: 166%;
+}
+
+.newputlogo {
+  width: 10%;
+}
+
 /*# sourceMappingURL=main.css.map */
 @media (min-width: 576px) and (max-width: 767px) {
-  #sidebar {
-    display: none;
-  }
-
   .second {
     margin-top: 10px;
   }
